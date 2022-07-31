@@ -10,18 +10,14 @@ public abstract class Conteudo {
     public abstract double calcularXp();
 
     public String getTitulo() {
-        return titulo;
-    }
+        return titulo;}
 
     public void setTitulo(String titulo) {
-        this.titulo = titulo;
-    }
+        this.titulo = titulo;}
 
     public String getDescricao() {
-        return descricao;
-    }
+        return descricao;}
 
     public void setDescricao(String descricao) {
-        this.descricao = descricao;
-    }
+        this.descricao = descricao;}
 }
